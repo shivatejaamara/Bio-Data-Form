@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Webpage
+        </title>
+    </head>
+    <body style="background-color:blanchedalmond;">
+                 <h1> BIO DATA FORMs</h1>
+         <form>
+            <div>
+                
+                <label><input type="radio" name="title">Mr.</label>
+                <label><input type="radio" name="title">Mrs.</label>
+                <label><input type="radio" name="title">Dr.</label>
+                 
+            </div>
+            <br>
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" placeholder="firstname" required>
+                <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="lastname" required>
+            
+            </div>
+            <br>
+           
+            <div>
+                <label for="fat_name">Father Name:</label>
+                <input type="text" id="fat_name" placeholder="fathername">
+            </div>
+            <br>
+            <div>
+                <label for="mot_name">Mother Name:</label>
+                <input type="text" id="mot_name" placeholder="mothername">
+            </div>
+            <br>
+            <div>
+                <label for="marital">Martial Status:</label>
+                <select id="marital" name="marital" required>
+                    <option>Single</option>
+                    <option>Married</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Don't prefer</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="religion">Religion:</label>
+                <input type="text" id="religion" placeholder="religion">
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" placeholder="dob" required>
+            </div>
+            <br>
+            <div>
+                Languages Known:<br>
+                <label><input type="checkbox" name="interest" value="Telugu">Telugu</label>
+                <label><input type="checkbox" name="interest" value="english">English</label>
+                <label><input type="checkbox" name="interest" value="hindi">Hindi</label>
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Email id:</label>
+                <input type="email" id="email" placeholder="mail id" required>
+            </div>
+            <br>
+            <div>
+                <label for="address">Enter Address:</label><br>
+                <textarea name="address" id="address" rows="3" columns="55" placeholder="enter full address" required></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="1234567890" required>
+            </div>
+            <br>
+
+            <input type="reset">
+            <input type="submit">
+            
+         </form>
+    </body>
+</html>
